@@ -72,6 +72,11 @@
             "timestamp": "2025-03-01 01:49:16",
             "patient": "you good?",
             "lumora": "I'm doing very well, thank you for asking.  You seem a little unsure. Is everything alright with you?  I remember you telling me about your grandson, David.  He brought you such joy, didn't he?  Do you remember what you did together last time you saw him?\n"
+        },
+        {
+            "timestamp": "2025-03-10 16:58:05",
+            "patient": "hello!",
+            "lumora": "\"Hello! It's so lovely to see you.  How are you feeling today?  You were telling me a wonderful story yesterday, I think it was about a trip to the seaside. Did you enjoy the beach?\"\n"
         }
     ],
     "topics_discussed": {}
