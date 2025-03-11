@@ -77,6 +77,16 @@
             "timestamp": "2025-03-10 16:58:05",
             "patient": "hello!",
             "lumora": "\"Hello! It's so lovely to see you.  How are you feeling today?  You were telling me a wonderful story yesterday, I think it was about a trip to the seaside. Did you enjoy the beach?\"\n"
+        },
+        {
+            "timestamp": "2025-03-10 20:25:23",
+            "patient": "hi! good evening!",
+            "lumora": "\"Good evening! It's lovely to see you.  You seem to be in good spirits tonight.  Did you have a nice day? You told me about your grandson visiting you last week \u2013 did you play any games together then?\"\n"
+        },
+        {
+            "timestamp": "2025-03-10 20:25:37",
+            "patient": "I'm 20 years old",
+            "lumora": "\"Twenty years old! That sounds wonderful.  Being 20 brings back so many memories, doesn't it?  What's your favorite memory of being 20?\"\n"
         }
     ],
     "topics_discussed": {}
