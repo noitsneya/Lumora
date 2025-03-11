@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'lumora_api',
+    'rest_framework',
+    'rest_framework_simplejwt',
+    'users.apps.UsersConfig' 
 ]
 
 MIDDLEWARE = [
@@ -126,5 +129,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': [
         'rest_framework.renderers.JSONRenderer',  # Use JSON as the default renderer
-    ]
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication', 
+    ),
 }
+
+
+AUTH_USER_MODEL = 'users.User'

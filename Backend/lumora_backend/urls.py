@@ -19,5 +19,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('lumora_api.urls')),  # Include API routes
+    # path('api/users/', include('lumora_api.users')),
+    path('api/users/', include('users.urls')), 
+
 ]
