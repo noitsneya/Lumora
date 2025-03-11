@@ -14,7 +14,6 @@ for model in models:
     print(model.name, "-", model.supported_generation_methods)
 
 def print_header():
-    """Print a welcome header for Lumora"""
     print("\n" + "="*60)
     print("                       LUMORA ASSISTANT")
     print("           A nurturing companion for dementia care")
@@ -28,7 +27,6 @@ def print_header():
     print("-"*60 + "\n")
 
 def format_response(text):
-    """Format Lumora's response for better readability"""
     # Add some light formatting to make responses more readable
     paragraphs = text.split('\n')
     formatted = []
