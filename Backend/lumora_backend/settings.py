@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'lumora_api',
+    'rest_framework',
+    'rest_framework_simplejwt',
+    'users.apps.UsersConfig',  
 ]
 
 MIDDLEWARE = [
@@ -128,3 +131,5 @@ REST_FRAMEWORK = {
         'rest_framework.renderers.JSONRenderer',  # Use JSON as the default renderer
     ]
 }
+
+AUTH_USER_MODEL = 'users.User'
