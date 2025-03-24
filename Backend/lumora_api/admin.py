@@ -1,12 +1,3 @@
-"""
-from django.contrib import admin
-from .models import Memory, Patient, Caretaker
-
-admin.site.register(Memory)
-admin.site.register(Patient)
-admin.site.register(Caretaker)
-
-"""
 from django.contrib import admin
 from .models import Memory, Caretaker, Patient
 
