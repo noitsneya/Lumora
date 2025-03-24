@@ -20,13 +20,13 @@ class MemoryAdmin(admin.ModelAdmin):
 class CaretakerAdmin(admin.ModelAdmin):
     list_display = ("name", "get_email")  
     search_fields = ("name", "email")
-    
+
     @admin.display(description="Email")
     def get_email(self, obj):
         return obj.user.email
 
 @admin.register(Patient)
 class PatientAdmin(admin.ModelAdmin):
-    list_display = ("name", "date_of_birth")  
-    search_fields = ("name",)
-    list_filter = ("date_of_birth",)
+    list_display = ('name', 'date_of_birth')  
+    list_filter = ('date_of_birth',)
+
